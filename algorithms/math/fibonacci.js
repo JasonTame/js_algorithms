@@ -5,8 +5,8 @@ function fibonacci(index) {
 		for (i = 2; i <= index; i++) {
 			next = sequence[i - 1] + sequence[i - 2]
 			sequence.push(next)
-        }
-        
+		}
+
 		return sequence[index]
 	}
 }
