@@ -1,3 +1,12 @@
+/**
+ * Calculates the fibonacci sequence and returns the value of the sequence
+ * at the given index
+ * 
+ * Time Complexity: O(n)
+ * 
+ * @param {number} index The index of the sequence
+ * @return {number}
+ */
 function fibonacci(index) {
 	{
 		const sequence = [1, 1]
