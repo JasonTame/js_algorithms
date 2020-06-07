@@ -1,3 +1,5 @@
+//@ts-check
+
 /**
  * Given an array of numbers, return the minimum value
  *

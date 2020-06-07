@@ -1,3 +1,5 @@
+//@ts-check
+
 /**
  * It calculates the factorial ofa given number
  * 

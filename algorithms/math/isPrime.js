@@ -1,3 +1,5 @@
+//@ts-check
+
 /**
  * Determines whether a given number is a prime number or not
  *

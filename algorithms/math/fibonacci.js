@@ -1,3 +1,5 @@
+//@ts-check
+
 /**
  * Calculates the fibonacci sequence and returns the value of the sequence
  * at the given index
@@ -11,7 +13,7 @@ function fibonacci(index) {
 	{
 		const sequence = [1, 1]
 		let next = 0
-		for (i = 2; i <= index; i++) {
+		for (let i = 2; i <= index; i++) {
 			next = sequence[i - 1] + sequence[i - 2]
 			sequence.push(next)
 		}
